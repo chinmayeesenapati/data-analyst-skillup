@@ -1,0 +1,25 @@
+# Data (keep large/raw files out of Git; document download steps in each README)
+**/data/raw/
+**/data/processed/
+*.duckdb
+*.duckdb.wal
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Secrets
+.env
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.vscode/
