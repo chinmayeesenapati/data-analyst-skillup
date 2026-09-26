@@ -1,0 +1,16 @@
+# Normalise line endings: store and check out text files with LF (VS Code, Python, SQL all handle LF fine)
+* text=auto eol=lf
+
+# Windows scripts need CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# Binary files: never touch
+*.pbix binary
+*.xlsx binary
+*.parquet binary
+*.duckdb binary
+*.png binary
+*.jpg binary
+*.pdf binary

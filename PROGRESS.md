@@ -11,8 +11,8 @@
 |---|---|
 | Start date | 2026-09-27 |
 | Current phase | Phase 0: Setup & Baseline |
-| Current item | 0.2 Git & GitHub essentials (in progress) |
-| Next session plan | Finish 0.2 (first push to GitHub), then the 0.3 diagnostic |
+| Current item | 0.3 Diagnostic assessment |
+| Next session plan | Warm-up: answer the pending 2 MB dataset question + a Git upstream recall question. Then run the 0.3 diagnostic (60–90 min) |
 | Time budget | 3 hrs/day, 7 days/week (~21 hrs/week); day 7 is review day |
 | Projected finish | ~2027-02-07 (see the schedule in `ROADMAP.md`) |
 | Schedule status | On track |
@@ -49,7 +49,7 @@ Scale: 1 = aware · 2 = can do with a tutorial · 3 = can do alone · 4 = does i
 
 ### Phase 0: Setup & Baseline
 - [x] 0.1 Environment setup: 2026-09-27. Fixed a broken system PATH and a full C: drive; PostgreSQL 18 on E:, DBeaver on E:, `analyst` env passes `check_env.py`, conda pkgs cache moved to E:.
-- [ ] 0.2 Git & GitHub essentials (in progress)
+- [x] 0.2 Git & GitHub essentials: 2026-09-27. Private repo `data-analyst-skillup` on GitHub; first commits pushed; practised the diff → add → commit → push loop.
 - [ ] 0.3 Diagnostic assessment
 
 ### Phase 1: Solid Foundations Through Practice
@@ -120,7 +120,8 @@ Scale: 1 = aware · 2 = can do with a tutorial · 3 = can do alone · 4 = does i
 
 *(The teacher adds gaps here and uses them as warm-ups. Strike one through when it's solid.)*
 
-- none yet
+- Git: what `-u` / upstream tracking does (2026-09-27). Pending question: "Is it OK to commit a 2 MB, openly licensed dataset with no personal info?"
+- Git: commit messages should describe what changed (2026-09-27)
 
 ## Portfolio
 
@@ -132,4 +133,5 @@ Scale: 1 = aware · 2 = can do with a tutorial · 3 = can do alone · 4 = does i
 
 | # | Date | Worked on | Outcome | Next |
 |---|---|---|---|---|
-| 1 | 2026-09-27 | Workspace setup: AGENTS.md, ROADMAP.md, PROGRESS.md | Plan created (practical-first, 4 phases, 10 projects, free only) | Phase 0: install toolkit, Git setup, diagnostic |
+| 1 | 2026-09-27 | Workspace setup: AGENTS.md, ROADMAP.md, PROGRESS.md | Plan created (practical-first, 4 phases, 10 projects, free only). Pace set to 3 hrs/day, finishing ~2027-02-07 | Phase 0 |
+| 2 | 2026-09-27 | 0.1 environment + 0.2 Git | Fixed the broken system PATH and a full C: (Downloads moved to D:). Installed Miniforge, the `analyst` env, PostgreSQL 18 and DBeaver (on E:). Private GitHub repo created, 2 commits pushed. Q1 correct, Q3 half right | 0.3 diagnostic |
